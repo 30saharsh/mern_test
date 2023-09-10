@@ -8,7 +8,7 @@ const [Data, setData] = useState("");
 
 const SubmitHandler = async (e) =>{
 e.preventDefault();
-const response = await axios.get("http://localhost:8080/");
+const response = await axios.get("https://testing-backend-cnv7.onrender.com/");
 setData(response.data);
 }
 
